@@ -8,24 +8,22 @@ h3 {
 
 .title {
     color: black;
+    font-size: larger;
 }
 
 .work {
     margin-top: 3vh;
-    margin-left: 86vh;
-    margin-right: 86vh;
     display:flex;
+    flex-direction: row;
 
 }
 
 .info{
     display: flex;
+    flex-direction: row;
     align-items: center;
     margin-top: 10vh;
     width: 100%;
-    max-width: 725px;
-    min-width: 400px;
-    margin-left: 40vh;
     color: white;
     background-color: rgb(33, 33, 230);
 
